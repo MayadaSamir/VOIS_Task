@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/mayad/Desktop/VOISTask">
+        <classes>
+            <class name="tests.UserRegistrationTest">
+                <methods>
+                    <include name="UserCanRegisterSuccessfully"/>
+                    <include name="RegisteredUserCanSignOut"/>
+                    <include name="RegisteredUserCanSignIn"/>
+                </methods>
+            </class>
+            <class name="tests.PurchaseProduct">
+                <methods>
+                    <include name="UserCanSelectBlousesMenu"/>
+                    <include name="UserCanSelectResultedProduct"/>
+                    <include name="UserCanProceedToCheckout"/>
+                    <include name="UserCanProceedToAddress"/>
+                    <include name="UserCanProceedToShipping"/>
+                    <include name="UserCanProceedToPayment"/>
+                    <include name="UserCanPayByBankWire"/>
+                    <include name="UserCanConfirmOrder"/>
+                    <include name="ValidateOrderInHistoryPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

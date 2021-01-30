@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/mayad/Desktop/VOISTask(failed)">
+    <classes>
+      <class name="tests.SelectBlousesTest">
+        <methods>
+          <include name="UserCanConfirmOrder"/>
+          <include name="UserCanProceedToPayment"/>
+          <include name="UserCanProceedToShipping"/>
+          <include name="UserCanPayByBankWire"/>
+          <include name="UserCanSelectBlousesMenu"/>
+          <include name="UserCanProceedToCheckout"/>
+          <include name="ValidateOrderInHistoryPage"/>
+          <include name="UserCanSelectResultedProduct"/>
+          <include name="StartDriver"/>
+          <include name="UserCanProceedToAddress"/>
+        </methods>
+      </class> <!-- tests.SelectBlousesTest -->
+    </classes>
+  </test> <!-- C:/Users/mayad/Desktop/VOISTask(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
